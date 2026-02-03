@@ -25,3 +25,13 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+# 1. 忽略根目录下的所有文件和文件夹
+/*
+
+# 2. 允许 Git 进入 ThinkPython 子文件夹（如果有嵌套）
+!/ThinkPython/
+
+# 3. 忽略 ThinkPython 文件夹下除了 practice 以外的所有内容
+/ThinkPython/*
+!/ThinkPython/practice/
